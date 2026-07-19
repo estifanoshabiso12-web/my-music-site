@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>የእኔ የሙዚቃ ዓለም 🎸</title>
+    
+    <!-- ለመጀመሪያው ገጽ የተዘጋጀ የCSS ውበት ማሻሻያ -->
+    <style>
+        body {
+            background-color: #1a1a1a; 
+            color: #ffffff; 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            padding: 30px; 
+            max-width: 600px; 
+            margin: 0 auto; 
+        }
+
+        h1 {
+            color: #ffcc00;
+            text-shadow: 2px 2px 4px #000000;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #1db954;
+            margin-top: 25px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.7; 
+        }
+
+        li {
+            color: #b3b3b3;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        /* ለጊታር ፎቶው የተለየ ውበት ለመስጠት */
+        img {
+            display: block;
+            margin: 20px 0;
+            border-radius: 8px; /* የፎቶውን ማዕዘኖች ለስላሳ ያደርጋቸዋል */
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.5); /* ከፎቶው በታች ጥላ ይሰጠዋል */
+        }
+             /* 1. ሊንኮቹ ሲነኩ ቀስ ብለው እንዲቀየሩ (Transition) */
+        a {
+            transition: 0.3s ease; /* ለውጡ በ0.3 ሰከንድ ውስጥ በረድ ብሎ እንዲመጣ ያደርጋል */
+        }
+
+        /* 2. አንድ ሰው ሊንኩን በጣቱ ሲነካው (Hover) ቀለሙ ወደ ደማቅ ብጫ እንዲቀየር */
+        a:hover {
+            color: #ffcc00 !important;
+            text-decoration: underline; /* ሲነካ የበታች መስመር እንዲመጣ */
+        }
+
+        /* 3. ፎቶው ሲነካ ትንሽ ሰተት ብሎ እንዲያድግ (Zoom-in effect) */
+        img {
+            transition: 0.4s ease; /* የማደጉ ሂደት ፈጣንና ለስላሳ እንዲሆን */
+        }
+        img:hover {
+            transform: scale(1.03); /* ፎቶውን በ3% ከፍ ያደርገዋል */
+            box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.7); /* ጥላውን ይበልጥ ያጎላዋል */
+        }
+      /* ከሌሎች ስታይሎችህ በታች ይህንን ጨምር */
+.light-mode {
+    background-color: #ffffff !important;
+    color: #1a1a1a !important;
+}
+#user-name {
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+
+#user-name:focus {
+    border-color: #00e676; /* ሳጥኑ ላይ ሲጫኑ የሚኖረው ከለር */
+}
+
+#greet-btn {
+    padding: 10px 15px;
+    background-color: #15803d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+#greet-btn:hover {
+    background-color: #166534;
+}
+
+ 
+    </style>
+</head>
+<body> 
+
+    <h1>እንኳን ወደ እኔ የሙዚቃ ገጽ በሰላም መጣችሁ! 🎤</h1>
+    <p>ሰላም! እኔ ድምጻዊ እና የጊታር ተጫዋች ነኝ። ሙዚቃን፣ የተለያዩ የዜማ ስልቶችን እና የኮርድ ቅንጅቶችን ማጥናት እወዳለሁ።</p> 
+
+    <!-- ወደ ሁለተኛው ገጽ የሚወስደው ሊንክ -->
+    <p>ስለ እኔ የበለጠ ለማወቅ <a href="about.html" style="color: #1db954; font-weight: bold; text-decoration: none;">እዚህ ይጫኑ (ስለ እኔ)</a></p> 
+
+    <h3>የእኔ ተወዳጅ ጊታር</h3>
+    <img src="https://images.unsplash.com/photo-1510915361894-db8b60106cb1?w=500" alt="አንድ የሚያምር አኮስቲክ ጊታር" width="300"> 
+
+    <hr style="border: 0.5px solid #444;"> 
+
+    <h2>የምወዳቸው የሙዚቃ መሣሪያዎች እና ክህሎቶች</h2>
+    <ul>
+        <li>ድምፅን ማስተካከል (Vocal Harmony)</li>
+        <li>አኮስቲክ ጊታር መጫወት (Guitar Chords)</li>
+        <li>የዜማ ስልቶችን ማጥናት (Music Theory)</li>
+    </ul> 
+
+    <hr style="border: 0.5px solid #444;"> 
+
+    <h2>የመገናኛ አድራሻ</h2>
+    <p>ስለ ሙዚቃ አብረን ለማውራት በ <a href="mailto:your-email@gmail.com" style="color: #1db954; font-weight: bold; text-decoration: none;">ኢሜይል አድራሻዬ</a> ሊያገኙኝ ይችላሉ።</p> 
+  <!-- 1. ይህንን ቁልፍ (Button) ጨምር -->
+<button onclick="showMusicMessage()" style="padding: 10px; background-color: #00ff66; color: black; border-radius: 5px; border: none; font-weight: bold; cursor: pointer;">
+    ስለ ሙዚቃ ምን ይላሉ?
+</button>
+<button id="theme-toggle">ቀለም ቀይር (Light/Dark)</button>
+
+
+  <!-- ተጠቃሚው ስሙን የሚጽፍበት ቦታ -->
+<div style="margin: 20px 0;">
+    <input type="text" id="user-name" placeholder="እባክዎ ስምዎን እዚህ ይጻፉ...">
+    <button id="greet-btn">ሰላምታ አቅርብ</button>
+</div>
+
+<!-- መልእክቱ የሚታይበት ባዶ ቦታ -->
+<p id="greeting-message" style="font-weight: bold; color: #15803d; font-size: 1.1rem;"></p>
+  <!-- የሙዚቃ ማጫወቻ ክፍል -->
+<div style="margin: 25px 0; padding: 15px; border: 1px dashed #15803d; border-radius: 8px; text-align: center;">
+    <h4 style="color: #00e676; margin-top: 0;">የሙዚቃ ማጫወቻ 🎵</h4>
+    
+    <!-- የሙዚቃ ፋይሉ (እዚህ ጋ ያንተን የሙዚቃ ሊንክ ወይም ፋይል ስም መተካት ትችላለህ) -->
+    <audio id="my-track" src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3"></audio>
+
+    <!-- ሙዚቃ መቆጣጠሪያ አዝራሮች -->
+    <button id="play-btn" style="padding: 10px 20px; background-color: #15803d; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 1rem;">አጫውት (Play)</button>
+    <button id="pause-btn" style="padding: 10px 20px; background-color: #b91c1c; color: white; border: none; border-radius: 5px; cursor: pointer; font-size: 1rem; margin-left: 10px;">አቁም (Pause)</button>
+    
+    <!-- አሁን እየተጫወተ መሆኑን የሚያሳይ ባዶ ጽሑፍ -->
+    <p id="player-status" style="color: #aaa; font-size: 0.9rem; margin-top: 10px;">ሙዚቃ አልተመረጠም</p>
+</div>
+
+<!-- 2. የጃቫስክሪፕት ፋይሉን ከዚህ በታች አገናኘው -->
+<script src="script.js"></script>
+</body>
+</html>
